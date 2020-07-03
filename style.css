@@ -1,0 +1,311 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: arial;
+}
+
+/*--------------Bagian Header-------------*/
+#container {
+	height: 940px;
+	width: 900px;
+	background-color: #0CF997;
+	margin: auto;
+	padding-top: none;
+}
+
+#header {
+	height: 100px;
+}
+
+.header-top {
+	height: 100px;
+	background-color: #00F6FF;
+}
+
+.header-left {
+	height: 100px;
+	width: 350px;
+	background-color: #37988e;	
+	float: left;
+}
+
+h2 {
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 30px;
+	padding-top: 29px;
+	padding-left: 30px;
+}
+
+.header-right {
+	height: 100px;
+	width: 900px;
+	background-color: #37988e;
+}
+
+nav {
+	margin:auto;
+	text-align: center;
+	font-family: arial;
+} 
+
+nav ul {
+	background:#37988e;
+ 	padding-top: 16px;
+ 	list-style: none;
+ 	position: relative;
+ 	display: inline-table;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a:hover {
+	background-color: #2BDA69;
+	border-radius: 5px;
+}
+
+nav ul li a {
+	display: block;
+	list-style: none;
+	padding: 10px;
+	margin: 10px;
+	font-size: 20px;
+	color: #FFFFFF;
+	font-family: arial;
+	text-decoration: none;
+	display: block;
+}
+
+nav ul li a[id="home"] {
+	background-color: #2BDA69;
+	border-radius: 5px;
+	color: #FFFFFF;
+}
+
+#header2 {
+	height: 300px;
+	background-color: #37988e;
+}
+
+.gambar {
+	width: 860px;
+	height: 300px;
+	background-color: #FFFFFF;
+	margin-left: 20px;
+	border-radius: 10px;
+}
+
+.gambar img {
+	border-radius: 10px;
+}
+
+/*--------------Bagian Body-------------*/
+body{
+	background-image: url(img/bg.jpg);
+	background-position: center;
+	background-repeat: repeat;
+	background-color: #39A9FF;
+}
+
+#body {
+	height: 400px;
+}
+
+.body-left {
+	background-color: #37988e;
+	height: 400px;
+	float: left;
+	width: 600px;
+}
+
+.post {
+	height: 365px;
+	width: 575px;
+	background-color: #FFFFFF;
+	margin-top: 15px;
+	margin-left: 20px;
+	border-radius: 10px;
+}
+
+.text h3 {
+	padding-top: 30px;
+	padding-left: 50px;
+}
+
+.text p {
+	text-align: justify;
+	margin: 0px 50px 0px 50px;
+}
+
+.body-right {
+	height: 400px;
+	float: left;
+	width: 300px;
+	overflow: hidden;
+}
+
+.body-right-top {
+	background-color: #FFD200;
+	height: 200px;
+	width: 300px;
+}
+
+.btn {
+	width: 80px;
+}
+
+#loginForm {
+	padding: 15px;
+	background-color: #37988e;
+	text-align: center;
+	height: 200px;
+
+}
+
+.form {
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	margin-right: 5px;
+	margin-left: 5px;
+	padding: 15px 0px 12.5px 0px;
+}
+
+.form2 {
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-bottom: 25px;
+	padding: 15.5px 0px 5.6px 0px;
+}
+
+input {
+	margin-top: 10px;
+	padding: 5px;
+	font-size: 16px;
+	border-radius: 10px;
+}
+
+.body-right-bottom {
+	background-color: #FA4545;
+	height: 200px;
+	width: 300px;
+}
+
+.btn2 {
+	background: #F92727;
+	width: 150px;
+	height: 50px;
+	border-radius: 10px;
+	color: #FFFFFF;
+	margin: 10px;
+	padding: 10px;
+	font-size: 15px;
+}
+
+
+/*--------------Bagian Footer-------------*/
+#footer {
+	height: 200px;
+	background-color: #00FFF0;
+}
+
+.footer-left {
+	height: 200px;
+	width: 300px;
+	background-color: #37988e;
+	float: left;
+}
+
+.footer-left img {
+	margin-left: 50px;
+	margin-top: 9px;
+	float: left;
+	margin-right: 10px;
+}
+
+.footer-left h4 {
+	margin: 15px 0px 0px 10px;
+	font-size: 25px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.footer-left a {
+	margin-left: 55px;
+	margin-top: 0px;
+	float: left;
+	margin-right: 10px;
+}
+
+.footer-center {
+	height: 200px;
+	width: 300px;
+	background-color: #37988e;
+	float: left;
+}
+
+.footer-center a {
+	margin-left: 80px;
+	margin-top: -5px;
+	float: left;
+	margin-right: 10px;
+}
+
+.footer-center h4 {
+	margin: 15px 0px 0px 10px;
+	font-size: 25px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.footer-center img {
+	margin-left: 25px;
+	margin-top: 9px;
+	float: left;
+	margin-right: 10px;
+}
+
+.footer-right {
+	height: 200px;
+	width: 300px;
+	background-color: #37988e;
+	float: left;
+}
+
+.footer-right img {
+	margin-left: 30px;
+	margin-top: 9px;
+	margin-right: 20px;
+	float: left;
+	margin-right: 10px;
+}
+
+.footer-right h4 {
+	margin: 15px 40px 0px 10px;
+	font-size: 25px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.footer-right a {
+	margin-left: 60px;
+	margin-top: 0px;
+	float: left;
+	margin-right: 10px;
+}
+
+#foot-down {
+	height: 40px;
+	width: 900px;
+	background-color: #000000;
+}
+
+#foot-down p {
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 10px;
+}
